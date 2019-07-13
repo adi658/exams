@@ -1,0 +1,50 @@
+body
+{
+	width:100%;
+	font-family:Arial;
+	font-size:14px;
+}
+a 
+{
+	color:blue;
+}
+table,tr,td
+{
+	border: 1px solid #ECDBFF;
+	font-family:Arial;
+	font-size:14px;
+}
+tr:nth-child(even) 
+{
+	background: #F1F1F1
+}
+tr:nth-child(odd) 
+{
+	background: #FFF
+}
+tr:hover
+{
+	background-color:#DFDFDC;
+}
+.mainDiv
+{
+	width:70%;
+	margin:auto;
+	font-family:Arial;
+	box-shadow:3px 3px 15px 1px #999;
+}
+.headerDiv
+{
+	border: 1px solid #ECDBFF;
+}
+.menu
+{
+	height:30px;
+}
+.ajaxDiv
+{
+	overflow:auto;
+	height:100px;
+	width:100%;
+	display:none;
+}
